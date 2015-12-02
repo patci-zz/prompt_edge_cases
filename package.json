@@ -1,0 +1,24 @@
+{
+  "name": "edge-case-prompt",
+  "version": "0.1.0",
+  "description": "Edge Case handling for prompts",
+  "main": "edge-case-prompt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patci/prompt_edge_cases.git"
+  },
+  "keywords": [
+    "prompt",
+    "edge",
+    "case"
+  ],
+  "author": "rpatci@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patci/prompt_edge_cases/issues"
+  },
+  "homepage": "https://github.com/patci/prompt_edge_cases#readme"
+}
