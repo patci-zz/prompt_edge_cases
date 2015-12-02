@@ -1,4 +1,3 @@
-module.exports = exports = function() {
 
   var $promptButton = $('#promptButton');
 
@@ -22,5 +21,5 @@ module.exports = exports = function() {
     event.preventDefault();
     promptMe();
   });
-}
+
 
