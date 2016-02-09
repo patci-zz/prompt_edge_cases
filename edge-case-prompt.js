@@ -1,8 +1,7 @@
-
   var $promptButton = $('#promptButton');
 
   function promptMe() {
-    var prompt1 = prompt("Let's have a number!")
+    prompt1 = prompt("Let's have a number!")
     switch(prompt1) {
       case null:
       return;
@@ -17,9 +16,6 @@
     };
   }
 
-  $promptButton.on('click', function(event) {
-    event.preventDefault();
-    promptMe();
-  });
+  $promptButton.on('click', promptMe);
 
 
